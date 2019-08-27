@@ -4,18 +4,19 @@ meta =
     id = "DeathInfo",
     name = "DeathInfo",
     title = "Death Info",
-    description = "When a personal ship of yours or one of your Alliance gets destroyed, you will receive a Mail describing the location of its death, and who killed it.",
+    description = "Sends a mail to the owner of a destroyed Ship or Station containing the details of their death.",
 
     authors = {"Shrooblord"},
     version = "1.0",
 
     dependencies = {
         {id = "Avorion", min = "0.26"},
+        {id = "ShrooblordMothership", min = "1.0"},
     },
 
     serverSideOnly = false,
     clientSideOnly = false,
-    saveGameAltering = false,
+    saveGameAltering = true,
 
     contact = "avorion@shrooblord.com",
 }
