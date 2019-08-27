@@ -58,7 +58,7 @@ function DeathInfo.onDestroyed(index, lastDamageInflictor)
         local destroyerText = ""
         local destroyer = Entity(lastDamageInflictor)
 
-        local destroyerTitle = destroyer.title
+        local destroyerTitle = destroyer.translatedTitle
         if destroyerTitle then
             destroyerTitle = destroyerTitle.." "
         end
