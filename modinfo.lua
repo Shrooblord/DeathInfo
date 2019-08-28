@@ -11,7 +11,7 @@ meta =
 
     dependencies = {
         {id = "Avorion", min = "0.26"},
-        {id = "ShrooblordMothership", min = "1.0"},
+        {id = "1847767864", min = "1.0.0"},             --ShrooblordMothership (library mod)
     },
 
     serverSideOnly = false,
