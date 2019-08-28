@@ -63,9 +63,13 @@ function DeathInfo.onDestroyed(index, lastDamageInflictor)
             destroyerTitle = destroyerTitle.." "
         end
 
+        if stringEndsWith(destroyerTitle, "${ship}") then
+            destroyerTitle = ""
+        end
+
         local destroyerName = destroyer.name
         if not destroyerName then
-            if not destroyerTitle then
+            if (not destroyerTitle) or (destroyerTitle == "") then
                 destroyerName = "Unknown vessel"
             else
                 destroyerName = "unknown vessel"
@@ -130,11 +134,4 @@ Ship Registration Intergalactical
 ]]%_t
 
     return deathInfoMail % {player = receiver.name, craft = entity.name}
-end
-
-function DeathInfo.sendInfo(faction, msg, ...)
-    if faction.isPlayer then
-        local player = Player(faction.index)
-        player:sendChatMessage("S.R.I./* Abbreviation for Ship Registration Intergalactical; must match with the email signature */"%_t, 3, msg, ...)
-    end
 end
