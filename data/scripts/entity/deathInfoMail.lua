@@ -45,7 +45,7 @@ function DeathInfo.setTranslatedMailText(header, text, sender)
 end
 callable(DeathInfo, "setTranslatedMailText")
 
--- if ship is destroyed this function is called
+-- if ship/station is destroyed this function is called
 function DeathInfo.onDestroyed(index, lastDamageInflictor)
     local faction = Faction()
     if not faction then return end
