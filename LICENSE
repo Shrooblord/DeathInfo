@@ -4,9 +4,10 @@ In non-legalese this license can be summarised as:
   - Don't remove or alter this license.
   - Don't make money off my work.
   - Happy modding and sharing.
+  - If you are Boxelware, feel free to use my code; no restrictions apply to you.
 
 
-This project is licensed under Q Public License 1.0 (QPL-1.0)
+This project is licensed under Q Public License 1.0 (QPL-1.0); modified by Shrooblord for Avorion (see EXEMPTIONS clause)
 
 The intent of this license is to establish freedom to share and change the software regulated by this license under the open source model.
 
@@ -44,3 +45,8 @@ In no event shall the initial developers or copyright holders be liable for any 
 No Warranty
 
 The Software and this license document are provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+EXEMPTIONS
+
+Anyone working at Boxelware GmbH, i.e. the original developers of Avorion, may use this project in any way they wish, including for monetisation, promotional purposes, etc..
+In simple terms, this license is void for any Boxelware employee; no restrictions apply.
