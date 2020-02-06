@@ -1,7 +1,7 @@
 
 meta =
 {
-    id = "1847804341",
+    id = "DeathInfo", --ws id "1847804341"
     name = "DeathInfo",
     title = "Death Info",
     description = "Sends a Mail to the owner of a destroyed Ship or Station containing the details of their death.",
