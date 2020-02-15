@@ -8,10 +8,10 @@ meta =
     authors = {"Shrooblord"},
 
 
-    version = "1.1.2",
+    version = "1.1.3",
     dependencies = {
         {id = "1847767864", min = "1.1"},  -- Shrooblord Mothership
-        {id = "Avorion", min = "0.26", max = "0.31.*"}
+        {id = "Avorion", min = "0.26", max = "0.32.*"}
     },
 
     serverSideOnly = false,
